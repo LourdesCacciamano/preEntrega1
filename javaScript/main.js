@@ -24,6 +24,7 @@ while(opcionFlores != "") {
        cuotas = Number(prompt("Seleccione el numero de cuotas que desee: \n A-1 \n B-3 \n C-6")); 
        const precioTotal = precio(rosas, cantidad, cuotas);
        alert(`El precio de ${cantidad} Rosas en ${cuotas} Cuotas son $ ${precioTotal}`);
+       alert("¡Muchas Gracias por su compra! ❤️")
        break;
     } else if(opcionFlores == 2) {
         alert("Su flor seleccionada fue ALSTROEMERIAS ¡Buena Eleccion! ");
@@ -31,6 +32,7 @@ while(opcionFlores != "") {
        cuotas = Number(prompt("Seleccione el numero de cuotas que desee: \n A-1 \n B-3 \n C-6")); 
        const precioTotal = precio(alstroemerias, cantidad, cuotas);
        alert(`El precio de ${cantidad} Alstroemerias en ${cuotas} Cuotas son $ ${precioTotal}`);
+       alert("¡Muchas Gracias por su compra! ❤️")
         break;
     } else if(opcionFlores == 3) {
         alert("Su flor seleccionada fue GERBERAS ¡Buena Eleccion! ");
@@ -38,6 +40,7 @@ while(opcionFlores != "") {
         cuotas = Number(prompt("Seleccione el numero de cuotas que desee: \n A-1 \n B-3 \n C-6")); 
         const precioTotal = precio(gerberas, cantidad, cuotas);
         alert(`El precio de ${cantidad} Gerberas en ${cuotas} Cuotas son $ ${precioTotal}`);
+        alert("¡Muchas Gracias por su compra! ❤️")
         break;
     } else{
         alert("Por favor ingrese algo valido");
